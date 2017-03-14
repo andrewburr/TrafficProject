@@ -33,6 +33,12 @@
     <ClCompile Include="Motobike.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Junction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TJunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TimeClass.h">
@@ -48,6 +54,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Motorbike.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Junction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TJunction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

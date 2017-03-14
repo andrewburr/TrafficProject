@@ -3,6 +3,7 @@
 #include "Car.h"
 #include "Bike.h"
 #include "Motorbike.h"
+#include "Junction.h"
 
 
 using namespace std;
@@ -10,13 +11,13 @@ using namespace std;
 int main()
 {
 	TimeClass globalTime;
-	Motorbike test(&globalTime, 0, 2, 1);
+	Junction test(&globalTime, 0, 2, 1);
 
 	globalTime.incrementTime();
 
 	cout << "Pos : " << test.getPosX() << " " << test.getPosY() << endl;
 	cout << "Time : " << test.getTime() << endl;
-	cout << "Orientation: " << test.getOrientation() << endl;
+	cout << "Pedestrian: " << test.getPedestrian() << endl;
 
 	
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
