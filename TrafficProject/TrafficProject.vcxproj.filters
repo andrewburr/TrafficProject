@@ -33,10 +33,10 @@
     <ClCompile Include="Motobike.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Junction.cpp">
+    <ClCompile Include="Road.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TJunction.cpp">
+    <ClCompile Include="Pedestrian.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -56,10 +56,10 @@
     <ClInclude Include="Motorbike.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Junction.h">
+    <ClInclude Include="Road.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TJunction.h">
+    <ClInclude Include="Pedestrian.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
