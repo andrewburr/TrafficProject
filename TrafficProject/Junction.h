@@ -20,7 +20,7 @@ public:
 	Junction();
 	Junction(TimeClass*, int, int, bool);
 	~Junction();
-private:
+protected:
 	int pos_x;
 	int pos_y;
 	bool pedestrian;

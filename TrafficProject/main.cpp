@@ -5,22 +5,18 @@
 #include "Motorbike.h"
 #include "Road.h"
 #include "Pedestrian.h"
-
+#include "Box.h"
 
 using namespace std;
 
 int main()
 {
 	TimeClass globalTime;
+	Road testRoads[4];
+	Crossroads test(&globalTime, &testRoads[0], &testRoads[1], &testRoads[2], &testRoads[3], 4, 4);
 
-	Pedestrian test(2, 1, &globalTime);
-
-	globalTime.incrementTime();
-
-	cout << "Pos : " << test.getPos_X() << " " << test.getPos_Y() << endl;
-	cout << "Time : " << test.getTime() << endl;
-
-	
+	cout << "signal 0: " << test.getSignal(0) << endl;
+	cout << "signal 3: " << test.getSignal(3) << endl;
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	system("Pause");
 	return 0;

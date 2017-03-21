@@ -19,4 +19,4 @@ protected:
 	int orientation;
 };
 
-#endif
+#endif                               

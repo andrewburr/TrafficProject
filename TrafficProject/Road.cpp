@@ -66,3 +66,13 @@ void Road::setPos_Y(int input)
 {
 	Pos_Y = input;
 }
+
+bool Road::getOccupied()
+{
+	return occupied;
+}
+
+void Road::setOccupied(bool input)
+{
+	occupied = input;
+}
