@@ -30,22 +30,22 @@
     <ClCompile Include="Bike.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Motobike.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Road.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Pedestrian.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TJunction.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Junction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Crossroads.cpp">
+    <ClCompile Include="TJunction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Motorbike.cpp">
+    <ClCompile Include="Crossroads.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -71,10 +71,10 @@
     <ClInclude Include="Pedestrian.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TJunction.h">
+    <ClInclude Include="Junction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Junction.h">
+    <ClInclude Include="TJunction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Crossroads.h">
