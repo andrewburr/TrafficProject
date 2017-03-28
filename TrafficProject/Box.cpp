@@ -12,7 +12,7 @@ Box::Box()
 	Pos_Y = -1;
 	pointerRoad = NULL;
 	pointerTJunction = NULL;
-	pointerCrossraods = NULL;
+	pointerCrossroads = NULL;
 }
 
 Box::Box(int input_x, int input_y)
@@ -51,9 +51,9 @@ TJunction* Box::getPointerTJunction()
 	return pointerTJunction;
 }
 
-Crossroads* Box::getPointerCrossraods()
+Junction* Box::getPointerCrossroads()
 {
-	return pointerCrossraods;
+	return pointerCrossroads;
 }
 
 void Box::setPointerRoad(Road* input)
@@ -66,14 +66,14 @@ void Box::setPointerTJunction(TJunction* input)
 	pointerTJunction = input;
 }
 
-void Box::setPointerCrossraods(Crossroads* input)
+void Box::setPointerCrossroads(Junction* input)
 {
-	pointerCrossraods = input;
+	pointerCrossroads = input;
 }
 
 int Box::checkContent()		//Checks what type of object occupies the box
 {
-	if (pointerCrossraods == NULL && pointerRoad == NULL && pointerTJunction == NULL)
+	if (pointerCrossroads == NULL && pointerRoad == NULL && pointerTJunction == NULL)
 	{
 		return 0;	//returns 0 if empty
 	}
@@ -85,7 +85,7 @@ int Box::checkContent()		//Checks what type of object occupies the box
 	{
 		return 2;	//returns 2 if TJunction
 	}
-	else if (pointerCrossraods != NULL)
+	else if (pointerCrossroads != NULL)
 	{
 		return 3;	//returns 3 if Crossroads
 	}

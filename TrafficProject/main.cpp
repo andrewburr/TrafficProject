@@ -13,10 +13,11 @@ int main()
 {
 	TimeClass globalTime;
 	Road testRoads[4];
-	Crossroads test(&globalTime, &testRoads[0], &testRoads[1], &testRoads[2], &testRoads[3], 4, 4);
+	//Junction test(&globalTime, &testRoads[0], &testRoads[1], &testRoads[2], &testRoads[3], 4, 4);
+	Box map[20][20];
 
-	cout << "signal 0: " << test.getSignal(0) << endl;
-	cout << "signal 3: " << test.getSignal(3) << endl;
+	//cout << "signal 0: " << test.getSignal(0) << endl;
+	//cout << "signal 3: " << test.getSignal(3) << endl;
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	system("Pause");
 	return 0;

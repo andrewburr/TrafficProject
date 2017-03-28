@@ -6,17 +6,17 @@ class Bike : public Vehicle
 {
 public:
 	// Getters
-	int getOrientation();
+	//int getOrientation();
 
 	// Setters
-	void setOrientation(int);
+	//void setOrientation(int);
 
 	Bike();
 	Bike(TimeClass*, int, int, int);
 	virtual ~Bike();
 protected:
 	int speed = 2;
-	int orientation;
+	//int orientation;
 };
 
 #endif

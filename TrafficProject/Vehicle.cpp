@@ -40,3 +40,33 @@ int Vehicle::getTime()
 {
 	return TimeRef->getTime();
 }
+
+int Vehicle::getOrientation()
+{
+	return orientation;
+}
+
+void Vehicle::setOrientation(int input)
+{
+	orientation = input;
+}
+
+/*bool Vehicle::checkNextBox(Map input)
+{
+	int x, y;
+	x = this->getPosX();
+	y = this->getPosY();
+	if (orientation == 0)
+	{
+		if (input.getBox(x, y + 1)->checkContent() == 1)
+		{
+			return true;
+		}
+		else if (input.getBox(x, y + 1)->checkContent() == 2)
+		{
+			TJunction* tempTJ;
+			tempTJ = input.getBox(x, y + 1)->getPointerTJunction();
+			//tempTJ->getSignal;
+		}
+	}
+}*/

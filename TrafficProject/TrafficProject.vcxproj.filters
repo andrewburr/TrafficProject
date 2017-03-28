@@ -45,10 +45,10 @@
     <ClCompile Include="TJunction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Crossroads.cpp">
+    <ClCompile Include="Box.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Box.cpp">
+    <ClCompile Include="Map.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -80,10 +80,10 @@
     <ClInclude Include="TJunction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Crossroads.h">
+    <ClInclude Include="Box.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Box.h">
+    <ClInclude Include="Map.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -5,7 +5,7 @@
 
 #include "Road.h"
 #include "TJunction.h"
-#include "Crossroads.h"
+
 
 class Box
 {
@@ -15,7 +15,7 @@ protected:
 	int Pos_Y;
 	Road* pointerRoad;
 	TJunction* pointerTJunction;
-	Crossroads* pointerCrossraods;
+	Junction* pointerCrossroads;
 	
 
 public:
@@ -28,7 +28,7 @@ public:
 	int getPos_Y();
 	Road* getPointerRoad();
 	TJunction* getPointerTJunction();
-	Crossroads* getPointerCrossraods();
+	Junction* getPointerCrossroads();
 	
 
 	//Setter Functions
@@ -36,7 +36,7 @@ public:
 	void setPos_Y(int);
 	void setPointerRoad(Road*);
 	void setPointerTJunction(TJunction*);
-	void setPointerCrossraods(Crossroads*);
+	void setPointerCrossroads(Junction*);
 
 	//Other
 	int checkContent();

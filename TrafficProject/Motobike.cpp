@@ -16,7 +16,7 @@ Motorbike::Motorbike(TimeClass* time_input, int x_input, int y_input, int orient
 }
 
 Motorbike::~Motorbike(){}
-
+/*
 int Motorbike::getOrientation()
 {
 	return orientation;
@@ -25,4 +25,4 @@ int Motorbike::getOrientation()
 void Motorbike::setOrientation(int input)
 {
 	orientation = input;
-}
+}*/

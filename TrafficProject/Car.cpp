@@ -16,7 +16,7 @@ Car::Car(TimeClass* time_input, int x_input, int y_input, int orientation_input)
 }
 
 Car::~Car(){}
-
+/*
 int Car::getOrientation()
 {
 	return orientation;
@@ -26,3 +26,4 @@ void Car::setOrientation(int input)
 {
 	orientation = input;
 }
+*/
