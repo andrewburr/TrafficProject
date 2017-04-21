@@ -16,7 +16,7 @@ public:
 	virtual ~Motorbike();
 protected:
 	int speed = 2;
-	int orientation;
+	//int orientation;
 };
 
-#endif
+#endif                               

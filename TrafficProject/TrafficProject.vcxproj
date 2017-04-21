@@ -65,11 +65,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Bike.cpp" />
+    <ClCompile Include="Box.cpp" />
     <ClCompile Include="Car.cpp" />
-    <ClCompile Include="Crossroads.cpp" />
     <ClCompile Include="Junction.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Motobike.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="Motorbike.cpp" />
     <ClCompile Include="Pedestrian.cpp" />
     <ClCompile Include="Road.cpp" />
     <ClCompile Include="TimeClass.cpp" />
@@ -78,9 +79,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bike.h" />
+    <ClInclude Include="Box.h" />
     <ClInclude Include="Car.h" />
-    <ClInclude Include="Crossroads.h" />
     <ClInclude Include="Junction.h" />
+    <ClInclude Include="Map.h" />
     <ClInclude Include="Motorbike.h" />
     <ClInclude Include="Pedestrian.h" />
     <ClInclude Include="Road.h" />

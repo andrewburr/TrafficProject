@@ -16,6 +16,7 @@ protected:
 	int Orientation;
 	int Pos_X;
 	int Pos_Y;
+	bool occupied;
 
 public:
 	Road();						//Constructor
@@ -27,13 +28,15 @@ public:
 	int getOrientation();
 	int getPos_X();
 	int getPos_Y();
+	bool getOccupied();
+
 
 	//Setter Functions
 	void setType(string);
 	void setOrientation(int);
 	void setPos_X(int);
 	void setPos_Y(int);
-
+	void setOccupied(bool);
 };
 
 #endif 

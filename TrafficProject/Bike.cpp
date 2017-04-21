@@ -16,13 +16,13 @@ Bike::Bike(TimeClass* time_input, int x_input, int y_input, int orientation_inpu
 }
 
 Bike::~Bike(){}
-
+/*
 int Bike::getOrientation()
 {
 	return orientation;
-}
+}*/
 
-void Bike::setOrientation(int input)
+/*void Bike::setOrientation(int input)
 {
 	orientation = input;
-}
+}*/
