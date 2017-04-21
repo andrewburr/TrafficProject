@@ -6,19 +6,22 @@
 #include "Road.h"
 #include "Pedestrian.h"
 #include "Box.h"
+#include <iostream>
 
 using namespace std;
 
 int main()
 {
 	TimeClass globalTime;
-	Road testRoads[4];
-	//Junction test(&globalTime, &testRoads[0], &testRoads[1], &testRoads[2], &testRoads[3], 4, 4);
-	Box map[20][20];
+	Map network;
+	Car tempCar(&globalTime, 3, 3, 0);
 
-	//cout << "signal 0: " << test.getSignal(0) << endl;
-	//cout << "signal 3: " << test.getSignal(3) << endl;
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	system("Pause");
+	cout << tempCar.getOrientation() << endl;
+	tempCar.rotateOrientation(2);
+	cout << tempCar.getOrientation() << endl;
+	tempCar.rotateOrientation(2);
+	cout << tempCar.getOrientation() << endl;
+
+	system("PAUSE");
 	return 0;
 }

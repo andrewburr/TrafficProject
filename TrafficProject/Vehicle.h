@@ -11,6 +11,7 @@ public:
 	void setPosX(int);
 	void setPosY(int);
 	void setOrientation(int);
+	void rotateOrientation(int);
 
 	// Getters
 	int getPosX();
@@ -19,6 +20,7 @@ public:
 	int getOrientation();
 
 	bool checkNextBox(Map);
+	void moveNext(Map);
 
 	Vehicle();				//Constructors
 	Vehicle(TimeClass*, int, int);
@@ -28,6 +30,7 @@ protected:
 	int pos_y;
 	int orientation;
 	TimeClass* TimeRef;
+	
 };
 
 #endif

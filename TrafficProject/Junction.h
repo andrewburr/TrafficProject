@@ -11,26 +11,34 @@ public:
 	int getPosY();
 	bool getPedestrian();
 	int getTime();
-	Road* getRoad(int);
+	Road* getInRoad(int);
+	Road* getOutRoad(int);
 	int getSignal(int);
+	bool getOccupied();
 
 	//Setters
 	void setPosX(int);
 	void setPosY(int);
 	void setPedestrian(bool);
-	void setRoads(Road*, Road*, Road*, Road*);
+	void setInRoads(Road*, Road*, Road*, Road*);
+	void setOutRoads(Road*, Road*, Road*, Road*);
+	void setOccupied(bool);
+
+	void updateSignals();
 
 	//Constructors and Destructors
 	Junction();
-	Junction(TimeClass*, int, int, bool, Road*, Road*, Road*, Road*);
+	Junction(TimeClass*, int, int, bool, bool, Road*, Road*, Road*, Road*, Road*, Road*, Road*, Road*);
 	~Junction(){};
 protected:
-	Road roads[4];
+	Road inRoads[4];
+	Road outRoads[4];
 	int signals[4];
 	int pos_x;
 	int pos_y;
 	bool pedestrian;
 	TimeClass* TimeRef;
+	bool occupied;
 };
 
 #endif

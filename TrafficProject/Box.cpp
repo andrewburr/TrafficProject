@@ -12,7 +12,7 @@ Box::Box()
 	Pos_Y = -1;
 	pointerRoad = NULL;
 	pointerTJunction = NULL;
-	pointerCrossroads = NULL;
+	pointerJunction = NULL;
 }
 
 Box::Box(int input_x, int input_y)
@@ -51,9 +51,9 @@ TJunction* Box::getPointerTJunction()
 	return pointerTJunction;
 }
 
-Junction* Box::getPointerCrossroads()
+Junction* Box::getPointerJunction()
 {
-	return pointerCrossroads;
+	return pointerJunction;
 }
 
 void Box::setPointerRoad(Road* input)
@@ -66,14 +66,14 @@ void Box::setPointerTJunction(TJunction* input)
 	pointerTJunction = input;
 }
 
-void Box::setPointerCrossroads(Junction* input)
+void Box::setPointerJunction(Junction* input)
 {
-	pointerCrossroads = input;
+	pointerJunction = input;
 }
 
 int Box::checkContent()		//Checks what type of object occupies the box
 {
-	if (pointerCrossroads == NULL && pointerRoad == NULL && pointerTJunction == NULL)
+	if (pointerJunction == NULL && pointerRoad == NULL && pointerTJunction == NULL)
 	{
 		return 0;	//returns 0 if empty
 	}
@@ -85,8 +85,34 @@ int Box::checkContent()		//Checks what type of object occupies the box
 	{
 		return 2;	//returns 2 if TJunction
 	}
-	else if (pointerCrossroads != NULL)
+	else if (pointerJunction != NULL)
 	{
 		return 3;	//returns 3 if Crossroads
+	}
+}
+
+void Box::setOccupied(bool input)
+{
+	int content = this->checkContent();
+
+	if (content == 1)
+	{
+		Road* tempRoad;
+		tempRoad = this->getPointerRoad();
+		tempRoad->setOccupied(input);
+	}
+
+	if (content == 2)
+	{
+		TJunction* tempTJ;
+		tempTJ = this->getPointerTJunction();
+		tempTJ->setOccupied(input);
+	}
+
+	if (content == 1)
+	{
+		Junction* tempJunction;
+		tempJunction = this->getPointerJunction();
+		tempJunction->setOccupied(input);
 	}
 }

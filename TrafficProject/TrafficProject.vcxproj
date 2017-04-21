@@ -70,8 +70,9 @@
     <ClCompile Include="Junction.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Map.cpp" />
-    <ClCompile Include="Motobike.cpp" />
+    <ClCompile Include="Motorbike.cpp" />
     <ClCompile Include="Pedestrian.cpp" />
+    <ClCompile Include="printMap.cpp" />
     <ClCompile Include="Road.cpp" />
     <ClCompile Include="TimeClass.cpp" />
     <ClCompile Include="TJunction.cpp" />

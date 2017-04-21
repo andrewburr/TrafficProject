@@ -9,13 +9,13 @@ public:
 	//Getters
 	int getOrientation();
 
+	void updateSignals();
+
 
 	TJunction();
-	TJunction(TimeClass*, Road*, Road*, Road*, int, int, int);
+	TJunction(TimeClass*, Road*, Road*, Road*, Road*, Road*, Road*, int, int, int, bool);
 	~TJunction(){};
 protected:
-	Road roads[4];
-	int signals[4];
 	int orientation;
 };
 

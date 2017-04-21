@@ -13,6 +13,7 @@ Car::Car(TimeClass* time_input, int x_input, int y_input, int orientation_input)
 	pos_y = y_input;
 	orientation = orientation_input;
 	TimeRef = time_input;
+
 }
 
 Car::~Car(){}

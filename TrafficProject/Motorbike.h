@@ -6,10 +6,10 @@ class Motorbike : public Vehicle
 {
 public:
 	// Getters
-	//int getOrientation();
+	int getOrientation();
 
 	// Setters
-	//void setOrientation(int);
+	void setOrientation(int);
 
 	Motorbike();
 	Motorbike(TimeClass*, int, int, int);

@@ -15,7 +15,7 @@ protected:
 	int Pos_Y;
 	Road* pointerRoad;
 	TJunction* pointerTJunction;
-	Junction* pointerCrossroads;
+	Junction* pointerJunction;
 	
 
 public:
@@ -28,15 +28,16 @@ public:
 	int getPos_Y();
 	Road* getPointerRoad();
 	TJunction* getPointerTJunction();
-	Junction* getPointerCrossroads();
+	Junction* getPointerJunction();
 	
 
 	//Setter Functions
+	void setOccupied(bool);
 	void setPos_X(int);
 	void setPos_Y(int);
 	void setPointerRoad(Road*);
 	void setPointerTJunction(TJunction*);
-	void setPointerCrossroads(Junction*);
+	void setPointerJunction(Junction*);
 
 	//Other
 	int checkContent();

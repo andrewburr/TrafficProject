@@ -13,6 +13,7 @@ Road::Road()
 	Orientation = true;
 	Pos_X = 0;
 	Pos_Y = 0;
+	occupied = false;
 }
 
 Road::Road(string Type, int Orientation, int X_input, int Y_input)

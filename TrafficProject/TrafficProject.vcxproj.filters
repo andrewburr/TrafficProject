@@ -30,9 +30,6 @@
     <ClCompile Include="Bike.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Motobike.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Road.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -49,6 +46,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Motorbike.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="printMap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
