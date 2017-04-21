@@ -5,23 +5,23 @@
 #include "Motorbike.h"
 #include "Road.h"
 #include "Pedestrian.h"
-
+#include "Box.h"
+#include <iostream>
 
 using namespace std;
 
 int main()
 {
 	TimeClass globalTime;
+	Map network;
+	Car tempCar(&globalTime, 3, 3, 0);
 
-	Pedestrian test(2, 1, &globalTime);
+	cout << tempCar.getOrientation() << endl;
+	tempCar.rotateOrientation(2);
+	cout << tempCar.getOrientation() << endl;
+	tempCar.rotateOrientation(2);
+	cout << tempCar.getOrientation() << endl;
 
-	globalTime.incrementTime();
-
-	cout << "Pos : " << test.getPos_X() << " " << test.getPos_Y() << endl;
-	cout << "Time : " << test.getTime() << endl;
-
-	
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	system("Pause");
+	system("PAUSE");
 	return 0;
 }

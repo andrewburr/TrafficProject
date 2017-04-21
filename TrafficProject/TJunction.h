@@ -6,17 +6,17 @@
 class TJunction : public Junction
 {
 public:
-	//Setters
-	void setRoads(Road*, Road*, Road*);
-
 	//Getters
-	Road* getRoad(int);
+	int getOrientation();
 
-	TJunction(){};
-	TJunction(TimeClass*, Road*, Road*, Road*, int, int);
-	~TJunction();
+	void updateSignals();
+
+
+	TJunction();
+	TJunction(TimeClass*, Road*, Road*, Road*, Road*, Road*, Road*, int, int, int, bool);
+	~TJunction(){};
 protected:
-	Road roads[3];
+	int orientation;
 };
 
 #endif
