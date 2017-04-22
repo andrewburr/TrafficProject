@@ -1,25 +1,28 @@
-﻿Build started 20/04/2017 16:55:08.
-     1>Project "D:\Users\rnb15131\Desktop\temp\TrafficProject-cameron\TrafficProject\TrafficProject.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Vehicle.cpp
-         Vehicle.cpp
-     1>d:\users\rnb15131\desktop\temp\trafficproject-cameron\trafficproject\vehicle.cpp(315): warning C4715: 'Vehicle::checkNextBox' : not all control paths return a value
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\rnb15131\Desktop\temp\TrafficProject-cameron\Debug\TrafficProject.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Users\rnb15131\Desktop\temp\TrafficProject-cameron\Debug\TrafficProject.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\rnb15131\Desktop\temp\TrafficProject-cameron\Debug\TrafficProject.lib" /MACHINE:X86 Debug\Bike.obj
-         Debug\Box.obj
-         Debug\Car.obj
-         Debug\Junction.obj
-         Debug\main.obj
-         Debug\Map.obj
-         Debug\Motorbike.obj
-         Debug\Pedestrian.obj
-         Debug\Road.obj
-         Debug\TimeClass.obj
-         Debug\TJunction.obj
-         Debug\Vehicle.obj
-         TrafficProject.vcxproj -> D:\Users\rnb15131\Desktop\temp\TrafficProject-cameron\Debug\TrafficProject.exe
-     1>Done Building Project "D:\Users\rnb15131\Desktop\temp\TrafficProject-cameron\TrafficProject\TrafficProject.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:01.08
+﻿  Vehicle.cpp
+  TimeClass.cpp
+  TJunction.cpp
+c:\users\deebzy97\desktop\trafficproject\trafficproject\tjunction.cpp(76): warning C4804: '<=': unsafe use of type 'bool' in operation
+c:\users\deebzy97\desktop\trafficproject\trafficproject\tjunction.cpp(83): warning C4804: '<=': unsafe use of type 'bool' in operation
+c:\users\deebzy97\desktop\trafficproject\trafficproject\tjunction.cpp(90): warning C4804: '<=': unsafe use of type 'bool' in operation
+c:\users\deebzy97\desktop\trafficproject\trafficproject\tjunction.cpp(104): warning C4804: '<=': unsafe use of type 'bool' in operation
+c:\users\deebzy97\desktop\trafficproject\trafficproject\tjunction.cpp(111): warning C4804: '<=': unsafe use of type 'bool' in operation
+c:\users\deebzy97\desktop\trafficproject\trafficproject\tjunction.cpp(118): warning C4804: '<=': unsafe use of type 'bool' in operation
+c:\users\deebzy97\desktop\trafficproject\trafficproject\tjunction.cpp(132): warning C4804: '<=': unsafe use of type 'bool' in operation
+c:\users\deebzy97\desktop\trafficproject\trafficproject\tjunction.cpp(139): warning C4804: '<=': unsafe use of type 'bool' in operation
+c:\users\deebzy97\desktop\trafficproject\trafficproject\tjunction.cpp(146): warning C4804: '<=': unsafe use of type 'bool' in operation
+c:\users\deebzy97\desktop\trafficproject\trafficproject\tjunction.cpp(160): warning C4804: '<=': unsafe use of type 'bool' in operation
+c:\users\deebzy97\desktop\trafficproject\trafficproject\tjunction.cpp(167): warning C4804: '<=': unsafe use of type 'bool' in operation
+c:\users\deebzy97\desktop\trafficproject\trafficproject\tjunction.cpp(174): warning C4804: '<=': unsafe use of type 'bool' in operation
+  Road.cpp
+  Generating Code...
+c:\users\deebzy97\desktop\trafficproject\trafficproject\vehicle.cpp(305): warning C4715: 'Vehicle::checkNextBox': not all control paths return a value
+  Compiling...
+  main.cpp
+  Car.cpp
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  Map.cpp
+  Junction.cpp
+  Box.cpp
+  TrafficProject.vcxproj -> C:\Users\Deebzy97\Desktop\TrafficProject\Debug\TrafficProject.exe
+  TrafficProject.vcxproj -> C:\Users\Deebzy97\Desktop\TrafficProject\Debug\TrafficProject.pdb (Full PDB)
